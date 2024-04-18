@@ -5,7 +5,7 @@
 
 The hybrid model DistilBERT-BiGRU, integrating DistilBERT Pre-trained Model and 4 layers of Bidirectional GRUs, aims to help classify text into one of these six fundamental emotional states: sadness, joy, love, anger, fear, and surprise.
 
-![DistilBERT-BiGRU Architecture](image_url)
+![DistilBERT-BiGRU Architecture](https://github.com/ohaluminum/DistilBERT-BiGRU-Emotion/blob/main/DistilBERT-BiGRU-Horizontal.png)
 
 - DistilBERT Pre-trained Model: For extracting high-level feature representations from text. DistilBERT is a lighter version of BERT designed to maintain performance while being computationally efficient.
 
