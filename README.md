@@ -1,3 +1,21 @@
+# DistilBERT-BiGRU
+
+---
+
+#### Emotion Analysis using DistilBERT & BiGRU
+
+
+The hybrid model DistilBERT-BiGRU, integrating DistilBERT Pre-trained Model and 4 layers of Bidirectional GRUs, aims to help classify text into one of these six fundamental emotional states: sadness, joy, love, anger, fear, and surprise.
+
+![DistilBERT-BiGRU Architecture](image_url)
+
+- DistilBERT Pre-trained Model: For extracting high-level feature representations from text. DistilBERT is a lighter version of BERT designed to maintain performance while being computationally efficient.
+
+- RNN Model: Consists of 4 layers of Bidirectional GRUs and takes the element-wise mean of the final layer as the output. This structure is intended to process the embeddings output from DistilBERT and perform emotion classification effectively.
+
+
+#### Usage
+
 1. Install required libraries and dependencies.
 
 `pip install -r requirements.txt`
